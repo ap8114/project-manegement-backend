@@ -1,4 +1,4 @@
-const userModel = require("../modals/createprojectmodal");
+const userModel = require("../modals/CreateprojectModal");
 
 exports.getAllUsers = (req, res) => {
   userModel.getAll((err, results) => {
